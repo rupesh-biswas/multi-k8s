@@ -5,7 +5,7 @@ on:
       - main
 
 env:
-  SHA: $(git rev-parse HEAD)
+  SHA: ${{ github.sha }}
 
 jobs:
   build:
